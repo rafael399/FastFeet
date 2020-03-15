@@ -21,6 +21,10 @@ class RecipientController {
 
     return res.json(recipient);
   }
+
+  async update(req, res) {
+    return res.json({ ok: true });
+  }
 }
 
 export default new RecipientController();
